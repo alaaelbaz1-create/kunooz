@@ -97,7 +97,7 @@
         html += '<div class="grid grades">';
         grade.units.forEach(function(u){
           var inner =
-            '<h3>الوحدة '+arUnit(u.unit)+": "+esc(u.title)+"</h3>" +
+            '<h3>الوحدة '+arUnit(u.unit)+"</h3>" +
             '<p class="meta">'+u.decks+" عرضًا تقديميًا + "+u.plans+" خطة تحضير</p>" +
             '<p style="margin:10px 0">'+statusBadge(u.status)+"</p>";
           if(u.status==="ready"){
@@ -135,12 +135,12 @@
         document.title = "الوحدة "+arUnit(u)+" — "+grade.title+" — منصة كنوز";
         var html =
           '<div class="breadcrumb"><a href="index.html">الرئيسية</a> ‹ <a href="grade.html?g='+g+'">'+esc(grade.title)+"</a> ‹ الوحدة "+arUnit(u)+"</div>" +
-          '<div class="unit-head"><h1>الوحدة '+arUnit(u)+": "+esc(man.unit_title)+"</h1>" +
+          '<div class="unit-head"><h1>الوحدة '+arUnit(u)+"</h1>" +
           '<p class="meta">'+esc(grade.title)+" — "+man.decks.length+" عرضًا تقديميًا مع خطط التحضير — "+esc(man.term)+"</p>" +
           '<div class="unit-actions">'+
             (unit.zip? '<a class="btn gold" href="'+esc(unit.zip)+'" download>⬇ تحميل الوحدة كاملة (ZIP)</a>':"")+
           "</div></div>" +
-          '<div class="note">كل عرض يعمل بالضغط (F5): تظهر الإجابات نموذجيًا بعد محاولة الطالب. حمّل العرض وخطة التحضير منفردين، أو الوحدة كاملة بملف ZIP واحد.</div>' +
+          '<div class="note">استعرض أي عرض بزر «👁 معاينة» قبل تحميله (تظهر في المعاينة عناصر الشريحة كاملة دفعة واحدة)، أما ملف العرض المحمّل فيعمل بالضغط (F5): تظهر الإجابات نموذجيًا بعد محاولة الطالب. حمّل العرض وخطة التحضير منفردين، أو الوحدة كاملة بملف ZIP واحد.</div>' +
           '<div class="lessons">';
         man.decks.forEach(function(d){
           html +=
@@ -149,6 +149,7 @@
               '<div class="info"><h3>'+esc(d.title)+"</h3>" +
               '<p class="meta">'+esc(d.lesson)+" — ص "+esc(d.pages)+" — "+d.slides+" شريحة</p></div>" +
               '<div class="btns">' +
+                (d.preview? '<a class="btn" href="'+esc(d.preview)+'" target="_blank" rel="noopener">👁 معاينة</a>':"") +
                 '<a class="btn primary" href="'+esc(d.file)+'" download="'+esc(d.download)+'">⬇ العرض</a>' +
                 (d.plan_file? '<a class="btn" href="'+esc(d.plan_file)+'" download="'+esc(d.plan_download)+'">⬇ خطة التحضير</a>':"") +
                 (d.game_url? '<a class="btn" href="'+esc(d.game_url)+'" target="_blank" rel="noopener">🎮 اللعبة</a>':"") +
