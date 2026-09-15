@@ -1,0 +1,132 @@
+/* ===== منصة كنوز — التصميم العام ===== */
+:root{
+  --sand:#f6f1e7; --sand-2:#efe7d7; --card:#fffdf8;
+  --ink:#2e2a24; --ink-soft:#6b6257;
+  --teal:#245c50; --teal-dark:#18433a;
+  --gold:#b3872f; --gold-soft:#e9dcc0;
+  --line:#e2d8c4;
+  --radius:16px;
+  --shadow:0 2px 10px rgba(60,50,30,.07), 0 8px 28px rgba(60,50,30,.06);
+}
+*{box-sizing:border-box; margin:0; padding:0}
+html{direction:rtl}
+body{
+  font-family:"Tajawal","Segoe UI",Tahoma,Arial,sans-serif;
+  background:var(--sand); color:var(--ink); line-height:1.75;
+  min-height:100vh; display:flex; flex-direction:column;
+}
+a{color:var(--teal); text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1080px; margin:0 auto; padding:0 20px}
+
+/* ===== الترويسة ===== */
+header.site{
+  background:var(--card); border-bottom:1px solid var(--line);
+  position:sticky; top:0; z-index:50;
+}
+header.site .wrap{
+  max-width:1080px; margin:0 auto; padding:14px 20px;
+  display:flex; align-items:center; gap:18px; flex-wrap:wrap;
+}
+.logo{display:flex; align-items:center; gap:10px; font-weight:800; font-size:1.45rem; color:var(--teal-dark)}
+.logo:hover{text-decoration:none}
+.logo .mark{
+  width:40px; height:40px; border-radius:12px; display:grid; place-items:center;
+  background:var(--teal); color:#f4e9c8; font-size:1.25rem; font-weight:800;
+}
+.logo small{display:block; font-size:.72rem; font-weight:500; color:var(--ink-soft)}
+nav.main{display:flex; gap:4px; margin-inline-start:auto; flex-wrap:wrap}
+nav.main a{
+  padding:8px 14px; border-radius:10px; color:var(--ink-soft); font-weight:600; font-size:.95rem;
+}
+nav.main a:hover{background:var(--sand-2); text-decoration:none; color:var(--teal-dark)}
+nav.main a.active{background:var(--teal); color:#fff}
+
+/* ===== البطل ===== */
+.hero{
+  background:linear-gradient(180deg, var(--sand-2), var(--sand));
+  border-bottom:1px solid var(--line);
+  padding:56px 0 44px; text-align:center;
+}
+.hero h1{font-size:2.1rem; color:var(--teal-dark); margin-bottom:10px}
+.hero p{max-width:640px; margin:0 auto; color:var(--ink-soft); font-size:1.08rem}
+.hero .badge{
+  display:inline-block; background:var(--gold-soft); color:#7a5c17;
+  border:1px solid #d9c391; border-radius:999px; padding:4px 16px;
+  font-size:.85rem; font-weight:700; margin-bottom:16px;
+}
+
+/* ===== الأقسام والبطاقات ===== */
+main{flex:1; padding:36px 0 56px}
+.section-title{font-size:1.35rem; color:var(--teal-dark); margin:0 0 6px}
+.section-sub{color:var(--ink-soft); margin-bottom:22px; font-size:.97rem}
+.grid{display:grid; gap:18px}
+.grid.grades{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  box-shadow:var(--shadow); padding:22px; transition:transform .15s ease, box-shadow .15s ease;
+}
+a.card:hover{transform:translateY(-3px); text-decoration:none; box-shadow:0 6px 18px rgba(60,50,30,.12)}
+.card h3{color:var(--teal-dark); font-size:1.15rem; margin-bottom:4px}
+.card .meta{color:var(--ink-soft); font-size:.88rem}
+.badge-status{
+  display:inline-block; border-radius:999px; padding:2px 12px; font-size:.78rem; font-weight:700;
+}
+.badge-ready{background:#dfece2; color:#2c6e4a; border:1px solid #bcd8c4}
+.badge-soon{background:#f3ead8; color:#8a6d2f; border:1px solid #e0d0ab}
+.card .foot{margin-top:14px; padding-top:12px; border-top:1px dashed var(--line); display:flex; justify-content:space-between; align-items:center; font-size:.86rem; color:var(--ink-soft)}
+.card .foot .go{color:var(--gold); font-weight:700}
+
+/* ===== جدول الدروس ===== */
+.unit-head{margin-bottom:26px}
+.unit-head h1{font-size:1.6rem; color:var(--teal-dark)}
+.unit-head .meta{color:var(--ink-soft); margin-top:4px}
+.unit-actions{margin-top:14px; display:flex; gap:10px; flex-wrap:wrap}
+.lessons{display:flex; flex-direction:column; gap:12px}
+.lesson{
+  background:var(--card); border:1px solid var(--line); border-radius:14px;
+  padding:16px 18px; display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+  box-shadow:var(--shadow);
+}
+.lesson .sess{
+  min-width:52px; height:52px; border-radius:12px; background:var(--sand-2);
+  display:grid; place-items:center; font-weight:800; color:var(--teal-dark); font-size:1.05rem;
+  border:1px solid var(--line);
+}
+.lesson .info{flex:1; min-width:220px}
+.lesson .info h3{font-size:1.02rem; color:var(--ink)}
+.lesson .info .meta{font-size:.83rem; color:var(--ink-soft)}
+.lesson .btns{display:flex; gap:8px; flex-wrap:wrap}
+.btn{
+  display:inline-flex; align-items:center; gap:6px;
+  border-radius:10px; padding:8px 14px; font-size:.88rem; font-weight:700;
+  border:1px solid var(--line); background:#fff; color:var(--teal-dark); cursor:pointer;
+}
+.btn:hover{background:var(--sand-2); text-decoration:none}
+.btn.primary{background:var(--teal); color:#fff; border-color:var(--teal)}
+.btn.primary:hover{background:var(--teal-dark)}
+.btn.gold{background:var(--gold); color:#fff; border-color:var(--gold)}
+.btn.gold:hover{background:#9a7425}
+.btn.disabled{opacity:.45; pointer-events:none}
+
+/* ===== تنبيهات ===== */
+.note{
+  background:#fbf6ea; border:1px solid #e6d8b4; border-radius:12px;
+  padding:14px 18px; color:#6d5a25; font-size:.92rem; margin-bottom:22px;
+}
+.breadcrumb{font-size:.88rem; color:var(--ink-soft); margin-bottom:18px}
+.breadcrumb a{color:var(--teal)}
+
+/* ===== التذييل ===== */
+footer.site{
+  background:var(--card); border-top:1px solid var(--line);
+  padding:26px 0; text-align:center; color:var(--ink-soft); font-size:.88rem;
+}
+footer.site .name{color:var(--teal-dark); font-weight:700}
+
+@media (max-width:640px){
+  .hero h1{font-size:1.55rem}
+  .lesson{flex-direction:column; align-items:stretch}
+  .lesson .sess{width:52px}
+  nav.main{margin-inline-start:0}
+}
