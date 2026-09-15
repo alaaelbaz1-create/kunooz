@@ -3,7 +3,6 @@
   "subject": "اللغة العربية",
   "grade": 12,
   "unit": 1,
-  "unit_title": "الأجناس الأدبية",
   "term": "الفصل الدراسي الأول",
   "updated": "2026-09-15",
   "decks": [
@@ -15,6 +14,7 @@
       "pages": "36-39",
       "slides": 15,
       "file": "files/g12/u1/decks/khitab-1.pptx",
+      "preview": "files/g12/u1/previews/khitab-1.pdf",
       "download": "مسيرة وطن وحكمة قائد - الحصة الأولى.pptx",
       "plan_file": "files/g12/u1/plans/khitab-1-plan.docx",
       "plan_download": "خطة تحضير - مسيرة وطن وحكمة قائد - الحصة الأولى.docx"
@@ -27,6 +27,7 @@
       "pages": "38، 40-42",
       "slides": 14,
       "file": "files/g12/u1/decks/khitab-2.pptx",
+      "preview": "files/g12/u1/previews/khitab-2.pdf",
       "download": "مسيرة وطن وحكمة قائد - الحصة الثانية.pptx",
       "plan_file": "files/g12/u1/plans/khitab-2-plan.docx",
       "plan_download": "خطة تحضير - مسيرة وطن وحكمة قائد - الحصة الثانية.docx"
@@ -39,6 +40,7 @@
       "pages": "38-43",
       "slides": 17,
       "file": "files/g12/u1/decks/khitab-3.pptx",
+      "preview": "files/g12/u1/previews/khitab-3.pdf",
       "download": "مسيرة وطن وحكمة قائد - الحصة الثالثة.pptx",
       "plan_file": "files/g12/u1/plans/khitab-3-plan.docx",
       "plan_download": "خطة تحضير - مسيرة وطن وحكمة قائد - الحصة الثالثة.docx"
@@ -51,6 +53,7 @@
       "pages": "46-50",
       "slides": 15,
       "file": "files/g12/u1/decks/mustaqbal-1.pptx",
+      "preview": "files/g12/u1/previews/mustaqbal-1.pdf",
       "download": "مستقبل العالم ومكاننا فيه - الحصة الأولى.pptx",
       "plan_file": "files/g12/u1/plans/mustaqbal-1-plan.docx",
       "plan_download": "خطة تحضير - مستقبل العالم ومكاننا فيه - الحصة الأولى.docx"
@@ -63,6 +66,7 @@
       "pages": "48-53",
       "slides": 15,
       "file": "files/g12/u1/decks/mustaqbal-2.pptx",
+      "preview": "files/g12/u1/previews/mustaqbal-2.pdf",
       "download": "مستقبل العالم ومكاننا فيه - الحصة الثانية.pptx",
       "plan_file": "files/g12/u1/plans/mustaqbal-2-plan.docx",
       "plan_download": "خطة تحضير - مستقبل العالم ومكاننا فيه - الحصة الثانية.docx"
@@ -75,6 +79,7 @@
       "pages": "49-54",
       "slides": 14,
       "file": "files/g12/u1/decks/mustaqbal-3.pptx",
+      "preview": "files/g12/u1/previews/mustaqbal-3.pdf",
       "download": "مستقبل العالم ومكاننا فيه - الحصة الثالثة.pptx",
       "plan_file": "files/g12/u1/plans/mustaqbal-3-plan.docx",
       "plan_download": "خطة تحضير - مستقبل العالم ومكاننا فيه - الحصة الثالثة.docx"
@@ -87,6 +92,7 @@
       "pages": "30-35",
       "slides": 22,
       "file": "files/g12/u1/decks/qadiya.pptx",
+      "preview": "files/g12/u1/previews/qadiya.pdf",
       "download": "القضية الأدبية - الأجناس الأدبية.pptx",
       "plan_file": "files/g12/u1/plans/qadiya-plan.docx",
       "plan_download": "خطة تحضير - القضية الأدبية - الأجناس الأدبية.docx"
@@ -99,6 +105,7 @@
       "pages": "56-57",
       "slides": 13,
       "file": "files/g12/u1/decks/nahw-kad-1.pptx",
+      "preview": "files/g12/u1/previews/nahw-kad-1.pdf",
       "download": "كاد وأخواتها - الحصة الأولى.pptx",
       "plan_file": "files/g12/u1/plans/nahw-kad-1-plan.docx",
       "plan_download": "خطة تحضير - كاد وأخواتها - الحصة الأولى.docx"
@@ -111,6 +118,7 @@
       "pages": "58-60",
       "slides": 12,
       "file": "files/g12/u1/decks/nahw-kad-2.pptx",
+      "preview": "files/g12/u1/previews/nahw-kad-2.pdf",
       "download": "كاد وأخواتها - الحصة الثانية.pptx",
       "plan_file": "files/g12/u1/plans/nahw-kad-2-plan.docx",
       "plan_download": "خطة تحضير - كاد وأخواتها - الحصة الثانية.docx"
@@ -123,6 +131,7 @@
       "pages": "61-63",
       "slides": 14,
       "file": "files/g12/u1/decks/kitaba-1.pptx",
+      "preview": "files/g12/u1/previews/kitaba-1.pdf",
       "download": "الاستثمار للأجيال القادمة - الحصة الأولى.pptx",
       "plan_file": "files/g12/u1/plans/kitaba-1-plan.docx",
       "plan_download": "خطة تحضير - الاستثمار للأجيال القادمة - الحصة الأولى.docx"
@@ -135,6 +144,7 @@
       "pages": "63-64",
       "slides": 9,
       "file": "files/g12/u1/decks/kitaba-2.pptx",
+      "preview": "files/g12/u1/previews/kitaba-2.pdf",
       "download": "الاستثمار للأجيال القادمة - الحصة الثانية.pptx",
       "plan_file": "files/g12/u1/plans/kitaba-2-plan.docx",
       "plan_download": "خطة تحضير - الاستثمار للأجيال القادمة - الحصة الثانية.docx"
@@ -147,6 +157,7 @@
       "pages": "63-64",
       "slides": 12,
       "file": "files/g12/u1/decks/kitaba-3.pptx",
+      "preview": "files/g12/u1/previews/kitaba-3.pdf",
       "download": "الاستثمار للأجيال القادمة - الحصة الثالثة.pptx",
       "plan_file": "files/g12/u1/plans/kitaba-3-plan.docx",
       "plan_download": "خطة تحضير - الاستثمار للأجيال القادمة - الحصة الثالثة.docx"

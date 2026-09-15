@@ -54,7 +54,6 @@
         {
           "id": "g12-u1",
           "unit": 1,
-          "title": "الأجناس الأدبية",
           "status": "ready",
           "manifest": "data/g12-u1.json",
           "decks": 12,
@@ -65,7 +64,6 @@
         {
           "id": "g12-u2",
           "unit": 2,
-          "title": "مدرسة الإحياء",
           "status": "ready",
           "manifest": "data/g12-u2.json",
           "decks": 12,

@@ -3,7 +3,6 @@
   "subject": "اللغة العربية",
   "grade": 12,
   "unit": 2,
-  "unit_title": "مدرسة الإحياء",
   "term": "الفصل الدراسي الأول",
   "updated": "2026-09-15",
   "decks": [
@@ -15,6 +14,7 @@
       "pages": "75-79",
       "slides": 23,
       "file": "files/g12/u2/decks/ihya.pptx",
+      "preview": "files/g12/u2/previews/ihya.pdf",
       "download": "القضية الأدبية - مدرسة الإحياء.pptx",
       "plan_file": "files/g12/u2/plans/ihya-plan.docx",
       "plan_download": "خطة تحضير - القضية الأدبية - مدرسة الإحياء.docx"
@@ -27,6 +27,7 @@
       "pages": "80-82",
       "slides": 12,
       "file": "files/g12/u2/decks/ghurba-1.pptx",
+      "preview": "files/g12/u2/previews/ghurba-1.pdf",
       "download": "غربة وحنين - الحصة الأولى.pptx",
       "plan_file": "files/g12/u2/plans/ghurba-1-plan.docx",
       "plan_download": "خطة تحضير - غربة وحنين - الحصة الأولى.docx"
@@ -39,6 +40,7 @@
       "pages": "81-84",
       "slides": 12,
       "file": "files/g12/u2/decks/ghurba-2.pptx",
+      "preview": "files/g12/u2/previews/ghurba-2.pdf",
       "download": "غربة وحنين - الحصة الثانية.pptx",
       "plan_file": "files/g12/u2/plans/ghurba-2-plan.docx",
       "plan_download": "خطة تحضير - غربة وحنين - الحصة الثانية.docx"
@@ -51,6 +53,7 @@
       "pages": "83-86",
       "slides": 21,
       "file": "files/g12/u2/decks/ghurba-3.pptx",
+      "preview": "files/g12/u2/previews/ghurba-3.pdf",
       "download": "غربة وحنين - الحصة الثالثة.pptx",
       "plan_file": "files/g12/u2/plans/ghurba-3-plan.docx",
       "plan_download": "خطة تحضير - غربة وحنين - الحصة الثالثة.docx"
@@ -63,6 +66,7 @@
       "pages": "88-91",
       "slides": 13,
       "file": "files/g12/u2/decks/balqis-1.pptx",
+      "preview": "files/g12/u2/previews/balqis-1.pdf",
       "download": "بلقيس مشهد مسرحي - الحصة الأولى.pptx",
       "plan_file": "files/g12/u2/plans/balqis-1-plan.docx",
       "plan_download": "خطة تحضير - بلقيس مشهد مسرحي - الحصة الأولى.docx"
@@ -75,6 +79,7 @@
       "pages": "91-92",
       "slides": 15,
       "file": "files/g12/u2/decks/balqis-2.pptx",
+      "preview": "files/g12/u2/previews/balqis-2.pdf",
       "download": "بلقيس مشهد مسرحي - الحصة الثانية.pptx",
       "plan_file": "files/g12/u2/plans/balqis-2-plan.docx",
       "plan_download": "خطة تحضير - بلقيس مشهد مسرحي - الحصة الثانية.docx"
@@ -87,6 +92,7 @@
       "pages": "92-94",
       "slides": 18,
       "file": "files/g12/u2/decks/balqis-3.pptx",
+      "preview": "files/g12/u2/previews/balqis-3.pdf",
       "download": "بلقيس مشهد مسرحي - الحصة الثالثة.pptx",
       "plan_file": "files/g12/u2/plans/balqis-3-plan.docx",
       "plan_download": "خطة تحضير - بلقيس مشهد مسرحي - الحصة الثالثة.docx"
@@ -99,6 +105,7 @@
       "pages": "95-97",
       "slides": 15,
       "file": "files/g12/u2/decks/nahw-ahwal-1.pptx",
+      "preview": "files/g12/u2/previews/nahw-ahwal-1.pdf",
       "download": "أحوال المبتدأ والخبر - الحصة الأولى.pptx",
       "plan_file": "files/g12/u2/plans/nahw-ahwal-1-plan.docx",
       "plan_download": "خطة تحضير - أحوال المبتدأ والخبر - الحصة الأولى.docx"
@@ -111,6 +118,7 @@
       "pages": "98-100",
       "slides": 13,
       "file": "files/g12/u2/decks/nahw-ahwal-2.pptx",
+      "preview": "files/g12/u2/previews/nahw-ahwal-2.pdf",
       "download": "أحوال المبتدأ والخبر - الحصة الثانية.pptx",
       "plan_file": "files/g12/u2/plans/nahw-ahwal-2-plan.docx",
       "plan_download": "خطة تحضير - أحوال المبتدأ والخبر - الحصة الثانية.docx"
@@ -123,6 +131,7 @@
       "pages": "101-102",
       "slides": 15,
       "file": "files/g12/u2/decks/tafsiri-1.pptx",
+      "preview": "files/g12/u2/previews/tafsiri-1.pdf",
       "download": "المقال التفسيري لماذا تحيي الأمم تراثها - الحصة الأولى.pptx",
       "plan_file": "files/g12/u2/plans/tafsiri-1-plan.docx",
       "plan_download": "خطة تحضير - المقال التفسيري لماذا تحيي الأمم تراثها - الحصة الأولى.docx"
@@ -135,6 +144,7 @@
       "pages": "101-102",
       "slides": 12,
       "file": "files/g12/u2/decks/tafsiri-2.pptx",
+      "preview": "files/g12/u2/previews/tafsiri-2.pdf",
       "download": "المقال التفسيري لماذا تحيي الأمم تراثها - الحصة الثانية.pptx",
       "plan_file": "files/g12/u2/plans/tafsiri-2-plan.docx",
       "plan_download": "خطة تحضير - المقال التفسيري لماذا تحيي الأمم تراثها - الحصة الثانية.docx"
@@ -147,6 +157,7 @@
       "pages": "102-103",
       "slides": 11,
       "file": "files/g12/u2/decks/tafsiri-3.pptx",
+      "preview": "files/g12/u2/previews/tafsiri-3.pdf",
       "download": "المقال التفسيري لماذا تحيي الأمم تراثها - الحصة الثالثة.pptx",
       "plan_file": "files/g12/u2/plans/tafsiri-3-plan.docx",
       "plan_download": "خطة تحضير - المقال التفسيري لماذا تحيي الأمم تراثها - الحصة الثالثة.docx"
