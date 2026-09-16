@@ -9,7 +9,7 @@
       header.innerHTML =
         '<header class="site"><div class="wrap">' +
         '<a class="logo" href="index.html"><span class="mark">ك</span>' +
-        '<span>كنوز<small>منصة معلمي اللغة العربية — قطر</small></span></a>' +
+        '<span>كنوز<small>منصة معلمي اللغة العربية</small></span></a>' +
         '<nav class="main">' +
         navLink("index.html","الرئيسية",active==="home") +
         navLink("index.html#grades","الصفوف",active==="grades") +
@@ -20,8 +20,9 @@
     if(footer){
       footer.innerHTML =
         '<footer class="site"><div class="container">' +
-        '<p><span class="name">منصة كنوز</span> — عروض تقديمية وخطط تحضير لمعلمي اللغة العربية في دولة قطر (الصفوف 7–12)</p>' +
-        '<p>المحتوى التعليمي: د. أحمد كمال أبو المجد (بتصرف) — آخر تحديث: <span id="last-updated">—</span></p>' +
+        '<p class="verse">إنَّ الَّذي مَلَأَ اللُّغَاتِ مَحَاسِنًا — جَعَلَ الجَمَالَ وَسِرَّهُ فِي الضَّادِ</p>' +
+        '<p><span class="name">منصة كنوز</span> — عروض تقديمية وخطط تحضير لمعلمي اللغة العربية</p>' +
+        '<p>تنمو باستمرار لتشمل صفوفًا ومساراتٍ جديدة — آخر تحديث: <span id="last-updated">—</span></p>' +
         "</div></footer>";
     }
   }
